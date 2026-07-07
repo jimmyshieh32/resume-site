@@ -1,42 +1,29 @@
-# Resume Site
+# resume-site
 
-這是一個個人履歷與作品集網站，用於整理我的產品管理、商業策略、服務設計與 AI SaaS 相關經驗。
+這是給 GitHub Pages 使用的個人履歷網站檔案。
 
-## About
+## 檔案說明
 
-我是謝宜哲 Jimmy Hsieh，畢業於國立清華大學服務科學研究所，具備 AI SaaS 產品規劃、產品規格掌控、專案時程管理與跨部門協作經驗。
+- `index.html`：網站主頁內容
+- `style.css`：網站樣式
+- `robots.txt`：降低搜尋引擎索引機率
+- `.nojekyll`：讓 GitHub Pages 直接發布靜態檔案
 
-曾參與數據產品 0-to-1 規劃、PRD 撰寫、客戶導入、產品測試、商業化策略與使用者研究，並具備產品企劃、服務設計、永續發展與金融科技相關專案經驗。
+## 本次修改
 
-## Website
+- 移除首頁上方的「AI SaaS｜產品管理｜服務設計｜商業策略」標籤。
+- 移除 Profile 區塊中的「核心領域」。
+- 移除首頁四個數據卡片區塊。
+- 將「查看完整履歷 PDF」改為「查看完整履歷」，並連到 Canva 履歷連結。
 
-此網站包含：
+## 上傳到 GitHub 的方式
 
-- 個人簡介
-- 工作經驗
-- 精選作品集
-- 技能整理
-- 得獎與認證
-- 完整履歷連結
+1. 進入你的 `resume-site` repository。
+2. 點選 `Add file` → `Upload files`。
+3. 上傳 `index.html`、`style.css`、`robots.txt`、`README.md` 與 `.nojekyll`。
+4. 點選 `Commit changes`。
+5. 等待 GitHub Pages 自動更新。
 
-## Portfolio Focus
+## 注意
 
-- AI SaaS 產品管理
-- 產品企劃與 PRD 撰寫
-- 使用者研究與服務設計
-- 商業策略與市場研究
-- ESG / 永續創新
-- FinTech / 金融科技專案
-
-## Selected Projects
-
-- Insighta 360 & LnFusion｜AI 數據產品
-- BankGraph AI 智能防詐系統
-- 老有所動行動平台
-- InnoConnect+ 永續時尚共享平台
-- 來呷奔永續創新微創業專案
-
-## Notes
-
-本網站主要作為求職與作品集展示用途。  
-完整履歷與作品集請透過網站中的履歷連結查看。
+網站已加入 noindex 與 robots.txt，但這不等於密碼保護。網站連結仍可能被轉傳，建議只提供給特定對象。
