@@ -148,6 +148,21 @@ a {
 
 .hero-content,
 .hero-card,
+
+/* Inline external links in work experience */
+.text-link {
+  color: var(--primary);
+  font-weight: 850;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.18em;
+}
+
+.text-link:hover,
+.text-link:focus-visible {
+  color: var(--primary-dark);
+  outline: none;
+}
+
 .contact-card {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
