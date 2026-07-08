@@ -714,3 +714,25 @@ h1 span {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* === 2026-07-08 section cleanup === */
+.education-stack-grid {
+  grid-template-columns: 1fr;
+}
+
+.education-secondary {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.awards-panel {
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.45fr);
+}
+
+@media (max-width: 920px) {
+  .awards-panel {
+    grid-template-columns: 1fr;
+  }
+}
