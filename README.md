@@ -1,29 +1,32 @@
-# resume-site
+# Resume Site
 
-這是給 GitHub Pages 使用的個人履歷網站檔案。
+這是一個個人履歷與作品集網站，用於整理產品管理、AI SaaS、商業策略、服務設計與永續創新相關經驗。
 
-## 檔案說明
+## Website Content
 
-- `index.html`：網站主頁內容
-- `style.css`：網站樣式
-- `robots.txt`：降低搜尋引擎索引機率
-- `.nojekyll`：讓 GitHub Pages 直接發布靜態檔案
+網站包含：
 
-## 本次修改
+- 個人簡介
+- 工作經驗
+- 技能與學歷
+- 競賽與活動
+- 完整履歷連結
+- 與 PDF 版面一致的專案作品集頁面
 
-- 移除首頁上方的「AI SaaS｜產品管理｜服務設計｜商業策略」標籤。
-- 移除 Profile 區塊中的「核心領域」。
-- 移除首頁四個數據卡片區塊。
-- 將「查看完整履歷 PDF」改為「查看完整履歷」，並連到 Canva 履歷連結。
+## Portfolio Pages
 
-## 上傳到 GitHub 的方式
+作品集區塊以原履歷 PDF 第 3–8 頁版面呈現，包含：
 
-1. 進入你的 `resume-site` repository。
-2. 點選 `Add file` → `Upload files`。
-3. 上傳 `index.html`、`style.css`、`robots.txt`、`README.md` 與 `.nojekyll`。
-4. 點選 `Commit changes`。
-5. 等待 GitHub Pages 自動更新。
+- Lndata 麟數據科技｜Insighta 360 & LnFusion 產品
+- 新北市青年局 2024 青年永續社會設計挑戰賽｜老有所動行動平台
+- 2024 國泰金控 CIP 金融永續黑客松
+- 2024 永續智慧創新黑客松｜智齡科技長照共享媒合平台
+- 2024 台灣企業永續報告書個案研究競賽｜台泥
+- BankGraph AI 智能防詐系統
+- InnoConnect+ 百變衣櫥永續時尚共享販售平台
+- 來呷奔永續創新微創業專案
+- 第二屆法國巴黎人壽校園黑客松商業競賽
 
-## 注意
+## Notes
 
-網站已加入 noindex 與 robots.txt，但這不等於密碼保護。網站連結仍可能被轉傳，建議只提供給特定對象。
+此網站主要作為求職與作品集展示用途。完整履歷請透過網站中的履歷連結查看。
